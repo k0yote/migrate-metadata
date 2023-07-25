@@ -1,0 +1,16 @@
+{
+  "name": "contract_servant_metadata",
+  "version": "1.0.0",
+  "description": "download all tokens meta data from server and create metadata and images",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mime": "^3.0.0",
+    "nft.storage": "^7.1.1",
+    "thirdweb": "^0.11.4"
+  }
+}
