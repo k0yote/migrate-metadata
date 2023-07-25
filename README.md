@@ -7,13 +7,21 @@
 
 ## マイグレーションを行う。
 1. メタ情報とイメージをローカルにダウンロードする
+（メタデータ中に定義されているimageのURLからダウンロード）
+```json
+{
+  "description": "Friendly OpenSea Creature that enjoys long swims in the ocean.", 
+  "external_url": "https://openseacreatures.io/3", 
+  "image": "https://storage.googleapis.com/opensea-prod.appspot.com/puffs/3.png", 
+  "name": "Dave Starbelly",
+  "attributes": [ ... ]
+}
+```
 2. ダウンロードしたイメージをIPFSストレージにアップロードする
 ※今回はthirdwebが提供している以下の２つライブラリーを用いて行いました。
 
 - `https://www.npmjs.com/package/thirdweb`
 - `go get github.com/thirdweb-dev/go-sdk/v2/thirdweb`
-
-
 
 ## Help
 ```shell
