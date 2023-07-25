@@ -69,8 +69,8 @@ Usage of ./bin/meta-converter:
     ## 正常に実行された例
     ✔ Successfully uploaded directory to IPFS
     ✔ Files stored at the following IPFS URI: ipfs://joewiurefdjasf
-    ✔ Open this link to view your upload: https://a7036594dcb45b9e74b2523ec555958d.ipfscdn.io/ipfs/joewiurefdjasf/
+    ✔ Open this link to view your upload: https://{client-id}.ipfscdn.io/ipfs/joewiurefdjasf/
     ```
  
- 5. 4.取得した`https://a7036594dcb45b9e74b2523ec555958d.ipfscdn.io/ipfs/joewiurefdjasf/`をスマートコントラクトのベーストークンURIを更新
+ 5. 4.取得したURLだとthirdweb側の制限があるのでパブリックでは確認できないため、public gatewayに変更して`https://ipfs.io/ipfs/joewiurefdjasf/`をスマートコントラクトのベーストークンURIを更新
 
