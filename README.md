@@ -10,6 +10,11 @@
 2. ダウンロードしたイメージをIPFSストレージにアップロードする
 ※今回はthirdwebが提供している以下の２つライブラリーを用いて行いました。
 
+- `https://www.npmjs.com/package/thirdweb`
+- `go get github.com/thirdweb-dev/go-sdk/v2/thirdweb`
+
+
+
 ## Help
 ```shell
 ./bin/meta-converter -h                                                                                                                                
